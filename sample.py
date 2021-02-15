@@ -1,5 +1,5 @@
-#to calculte  the volume of the sphere
-a= int(input('Enter the value of a:'))
-b=int(input('Enter the value of b:'))
-c= a+b
-print('answer=',c)
+length= int(input('Enter the value of length'))
+breadth= int(input('Enter the value of breadth'))
+height=int(input('Enter the value of height'))
+volume= length*breadth*height
+print('the volume is', volume)
